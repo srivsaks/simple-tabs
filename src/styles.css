@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+.tabs .trigger {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+
+.tabs .trigger.active {
+  background-color: azure;
+}
+
+.tabs .content {
+  display: none;
+}
+
+.tabs .content.active {
+  display: block;
+}
